@@ -43,7 +43,7 @@ private final class FeedViewAdapter: FeedView {
    func display(feed: [FeedImage]) {
        controller?.tableModel = feed.map { model in
            FeedImageCellController(viewModel:
-               FeedImageViewModel(model: model, imageLoader: imageLoader, imageTransformer: UIImage.init))
+               FeedImageViewModel(model: model, imageLoader: imageLoader))
        }
    }
 }
