@@ -75,6 +75,9 @@
                                                             <state key="normal" title="Refresh">
                                                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </state>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="bSc-1a-0mY" eventType="touchUpInside" id="32b-D8-d3M"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,6 +120,14 @@
                                         <constraint firstAttribute="trailing" secondItem="XQG-Z5-9en" secondAttribute="trailing" id="zea-0c-xzf"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="ycA-DK-TRI" id="vEh-er-PgB"/>
+                                    <outlet property="feedImageContainer" destination="pAx-zm-PTt" id="aNh-lx-HDK"/>
+                                    <outlet property="feedImageRetryButton" destination="JY9-6K-eBt" id="ovf-Pa-rgq"/>
+                                    <outlet property="feedImageView" destination="eUK-3R-dXk" id="Ckg-mw-aef"/>
+                                    <outlet property="locationContainer" destination="dxc-WJ-sBB" id="h3C-Ms-ay7"/>
+                                    <outlet property="locationLabel" destination="3Mg-Ze-epV" id="Ji5-HU-CLs"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
