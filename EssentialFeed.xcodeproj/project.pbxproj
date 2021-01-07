@@ -257,6 +257,7 @@
 		3B3A2EC325A6B23D006EC875 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3BFDE689258B478F00D01BFC /* FeedViewControllerTests.swift */,
 				3B3A2EC425A6B244006EC875 /* Helpers */,
 			);
 			path = Controllers;
@@ -530,7 +531,6 @@
 			children = (
 				3B3A2EC225A6B225006EC875 /* Feed UI */,
 				3BFDE681258AFC5900D01BFC /* Info.plist */,
-				3BFDE689258B478F00D01BFC /* FeedViewControllerTests.swift */,
 			);
 			path = EssentialFeediOSTests;
 			sourceTree = "<group>";
